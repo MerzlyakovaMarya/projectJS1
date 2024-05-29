@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Отзывчивое бургер-меню</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://rsms.me/">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+</head>
+<body>
+    <div class="navbar">
+        <span class="toggle-button" id="toggle-menu">
+            &#9776;
+        </span>
+        <div class="menu" id="menu">
+            <img src="img/logo.png.png"  id="logo" class="logo2">
+            <a href="#" >Homes</a>
+            <a href="#" >Pages</a>
+            <a href="#" class="product">Products</a>
+            <img src="img/Link.png"  id="link" class="link2">
+            
+
+    <!-- Триггер/Кнопка для открытия модального окна -->
+<button id="modalBtn" class="modal-button">LOGIN</button>
+        </div>
+        
+    </div>
+    <div class="frame1">
+        <a href=""> <img class="img1" src="img/div.header-slider.png"></a>
+    </div>
+
+    <div class="filter-controls">
+        <button class="filter-button" data-filter="all">Best Seller</button>
+        <button class="filter-button" data-filter="category1">Milks & Foods</button>
+        <button class="filter-button" data-filter="category2">Diapers & Wipes</button>
+        <button class="filter-button" data-filter="category3">Infant</button>
+    </div>
+    
+    <div class="filter-items">
+        <div class="frame4">
+        <div class="filter-item category3"><img src="img/Group 56.png" class="pic"></div>
+        <div class="filter-item category1"><img src="img/Group 57.png" class="pic"></div>
+        <div class="filter-item category3"><img src="img/Group 58.png" class="pic"></div>
+        <div class="filter-item category3"><img src="img/Group 59.png" class="pic"></div>
+        <div class="filter-item category2"><img src="img/Group 60.png" class="pic"></div>
+        <div class="filter-item category3"><img src="img/Group 61.png" class="pic"></div>
+        <div class="filter-item category3"><img src="img/Group 62.png" class="pic"></div>
+        <div class="filter-item category2"><img src="img/Group 64.png" class="pic"></div>
+        <div class="filter-item category2"><img src="img/Group 65.png" class="pic"></div>
+        <div class="filter-item category2"><img src="img/Group 66.png" class="pic"></div>
+        <div class="filter-item category1"><img src="img/Group 67.png" class="pic"></div>
+        <div class="filter-item category1"><img src="img/Group 68.png" class="pic"></div>
+        </div>
+    </div>
+
+<div class="frame2">
+    <img src="img/Main.png" class="img2">
+</div>
+
+    <div class="slider">
+        <div class="slides">
+            <div id="slide1"><a href=""><img src="img/Group 91.png"></a>
+                <a href=""><img src="img/Group 73.png" class="slide1"></a>
+                <a href=""><img src="img/Group 74.png" class="slide1"></a>
+                <a href=""><img src="img/Group 76.png" class="slide1"></a>
+                <a href=""><img src="img/Group 78.png" class="slide1"></a></div>
+
+            <div id="slide2"><a href=""><img src="img/div.product-card (3).png"></a>
+                <a href=""><img src="img/div.product-card (2).png" class="slide2"></a>
+                <a href=""><img src="img/div.product-card (1).png" class="slide2"></a>
+                <a href=""><img src="img/div.product-card.png" class="slide2"></a>
+                <a href=""><img src="img/Group 79.png" class="slide2"></a></div>
+
+            <div id="slide3"><a href=""><img src="img/Group 57.png" ></a>
+                <a href=""><img src="img/Group 80.png" class="slide3"></a>
+                <a href=""><img src="img/Group 81.png" class="slide3"></a>
+                <a href=""><img src="img/div.product-card (4).png" class="slide3"></a>
+                <a href=""><img src="img/div.product-card (5).png" class="slide3"></a></div>
+        </div>
+        <button class="slide-arrow prev-arrow" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="slide-arrow next-arrow" onclick="changeSlide(1)">&#10095;</button>
+    </div>
+
+
+
+
+
+    <div class="tabs">
+        <div class="tab-buttons">
+            <button class="tab-button" id="defaultOpen" onclick="openTab(event, 'tab1')">Boys</button>
+            <button class="tab-button" onclick="openTab(event, 'tab2')">Girls</button>
+            <button class="tab-button" onclick="openTab(event, 'tab3')">Boys & Girls</button>
+        </div>
+    
+        <div id="tab1" class="tab-content">
+            <h2>The world of boys is traditionally associated with cars, robots, designers and all kinds of equipment, as well as with laser swords, pistols, bows and arrows and other weapons. However, psychologists are increasingly saying that in addition to "male" toys, boys need others. Which ones? We'll tell you about it.</h2>
+            <div class="boys"><a href=""><img src="img/Group 87.png" class="boys2"></a>
+                <a href=""><img src="img/Group 88.png" class="boys2"></a>
+                <a href=""><img src="img/Group 92.png" class="boys2"></a>
+                <a href=""><img src="img/div.product-card677.png" class="boys2"></a></div>
+        </div>
+
+        <div id="tab2" class="tab-content">
+            <h2>A variety of children's products would allow the list of toys for girls to continue indefinitely. However, we have tried to provide you with such a selection of products, after viewing which you will be able to continue searching for a suitable gift on your own.
+
+                We hope that your choice will be easy and successful!</h2>
+            <div class="girls"><a href=""><img src="img/div.product-card (10).png" class="girls2"></a>
+                <a href=""><img src="img/div.product-card (11).png" class="girls2"></a>
+                    <a href=""><img src="img/div.product-card (9).png" class="girls2"></a>
+                        <a href=""><img src="img/div.product-card (12).png" class="girls2"></a></div>
+        </div>
+
+        <div id="tab3" class="tab-content">
+            <h2>Throughout childhood, there are toys next to the kids. It is a source of joy, learning new things, getting to know the world. Life with them becomes more fun and interesting. They have an impact on the psyche, form skills and abilities, and develop the child physically. Each age has its own category of game material.</h2>
+            <div class="boysgirls"><a href=""><img src="img/div.product-card (6).png" class="boysgirls2"></a>
+                <a href=""><img src="img/div.product-card (7).png" class="boysgirls2"></a>
+                <a href=""><img src="img/div.product-card (8).png" class="boysgirls2"></a>
+                <a href=""><img src="img/Group 89.png" class="boysgirls2"></a></div>
+        </div>
+    </div>
+    
+
+
+
+    
+    <div class="accordion">
+        <div class="accordion-item">
+            <button class="accordion-button">Omicron in Kids: Here’s what parents should know</button>
+            <div class="accordion-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit erat tellus, et feugiat tortor dictum id. Quisque non mauris ligula. Donec tristique risus neque, non sagittis risus maximus ac. Cras maximus eu sapien vitae convallis. Donec placerat facilisis augue egestas tristique. Quisque non lacus tortor. Nulla non tincidunt nibh.</p>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <button class="accordion-button">Fun facts about January Babies</button>
+            <div class="accordion-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit erat tellus, et feugiat tortor dictum id. Quisque non mauris ligula. Donec tristique risus neque, non sagittis risus maximus ac. Cras maximus eu sapien vitae convallis. Donec placerat facilisis augue egestas tristique. </p>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <button class="accordion-button">Your handy guide to revamp the nursery</button>
+            <div class="accordion-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit erat tellus, et feugiat tortor dictum id. Quisque non mauris ligula. Donec tristique risus neque, non sagittis risus maximus ac. Cras maximus eu sapien vitae convallis. Donec placerat facilisis augue egestas tristique. Quisque non lacus tortor. Nulla non tincidunt nibh.</p>
+            </div>
+        </div>
+    </div>
+
+
+
+<!-- Модальное окно -->
+<div id="myModal" class="modal">
+
+  <!-- Содержимое модального окна -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <div class="forma">
+    <h2>Welcome Back</h2>
+    <h3>LOGIN TO CONTINUE</h3>
+
+    <form action="" method="get" class="form-example2">
+       
+
+        <div class="form-example2">
+          <label for="email">Email address</label>
+          <input type="email" class="email22" name="email" id="email" required  placeholder="Example@mail.com"/>
+        </div>
+         <div class="form-example2">
+          <label for="name">Password </label>
+          <input type="password" id="password" class="password22" required  placeholder="***********"/>
+        </div>
+        <div class="form-example2">
+          <input type="submit" value="LOG IN" class="login"/>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="frame5">
+    
+    <p class="p1">30 Days money back</p>
+    <p class="p2">Free Shipping over $99</p>
+    <p class="p2">100% Authentic Products</p>
+    <p class="p2">Flexiable payment options</p>
+</div>
+
+
+<div class="stolbs">
+<div class="stolb1">
+<p class="p3">Top Categories</p>
+<p>Pregnant & Postpartum</p>
+<p>Milks & Foods</p>
+<p>Diapers & Wipes</p>
+<p>Infant</p>
+<p>Eat & Drink Supplies</p>
+<p>Baby Fashion</p>
+<p>Baby Out</p>
+<p>Toys & Study</p>
+<p>Stroller, Crib, Chair</p>
+<p>Washes & Bath</p>
+<p>Homewares</p>
+</div>
+
+<div class="stolb2">
+<p class="p3">Company</p>
+<p>About Swatbabymall</p>
+<p>Contact</p>
+<p>Career</p>
+<p>Blog</p>
+<p>Sitemap</p>
+<p>Store Locations</p>
+</div>
+
+<div class="stolb3">
+<p class="p3">Help Center</p>
+<p>Customer Service</p>
+<p>Policy</p>
+<p>Terms & Conditions</p>
+<p>Trach Order</p>
+<p>FAQs</p>
+<p>My Account</p>
+<p>Product Support</p>
+</div>
+
+<div class="stolb4">
+<p class="p3">Partner</p>
+<p>Become Seller</p>
+<p>Affiliate</p>
+<p>Advertise</p>
+<p>Partnership</p>
+<p>Care Services</p>
+
+</div>
+</div>
+
+<form action="" method="get" class="form-example">
+    <div class="input-wrapper">
+      <input type="email" name="email" id="email" class="email2" required placeholder="Email Address"/>
+      <input type="submit" value="SUBSCRIBE" class="subscribe"/>
+    </div>
+</form>
+
+<p class="p4">By subscribing, you accept the Privacy Policy</p>
+<a href=""><img src="img/Group 71.png" class="visa"></a>
+<p class="p5">Download App</p>
+<a href=""><img src="img/Group 70.png" class="playmarket"></a>
+
+<script src="script.js"></script>
+</body>
+</html>
